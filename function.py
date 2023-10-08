@@ -75,3 +75,21 @@ def addtwo(a, b):
 
 x = addtwo(3, 5)
 print(x)
+
+
+# - Exercise
+
+# What will the following Python program print out?:
+
+
+def fred():
+    print("Zap")
+
+
+def jane():
+    print("ABC")
+
+
+jane()
+fred()
+jane()
