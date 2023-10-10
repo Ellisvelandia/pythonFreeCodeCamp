@@ -77,3 +77,27 @@ print("Done!")
 # "the iteration variable moves through all of the values in the sequence"
 
 # Making smart loops
+# " the trick is knowing something aboutwhole drop  when you are stuck writting code that only sees one entry at a time"
+# "set some variables ot initial values"
+# "look for something or do each entry separately updating a variable"
+# "look at the varibales"
+
+"Looping through a set"
+
+print("Before")
+for thing in [9, 41, 12, 3, 74, 15]:
+    print(thing)
+print("After")
+
+# "What is the largest Number"
+
+largest_so_fast = -1
+print("Before", largest_so_fast)
+for the_num in [9, 41, 12, 3, 74, 15]:
+    if the_num > largest_so_fast:
+        largest_so_fast = the_num
+    print(largest_so_fast, the_num)
+print("After", largest_so_fast)
+
+# we make a variable that contains the largest value we have seen so far. if the current number we are looking ar is
+# larger , it is the new largest values we have seen so far.
