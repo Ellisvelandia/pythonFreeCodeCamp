@@ -101,3 +101,58 @@ print("After", largest_so_fast)
 
 # we make a variable that contains the largest value we have seen so far. if the current number we are looking ar is
 # larger , it is the new largest values we have seen so far.
+
+
+# Below is code to find the smallest value from a list of values. One line has an error that will cause the code to not work as expected. Which line is it?:
+
+smallest = None
+print("Before:", smallest)
+for itervar in [3, 41, 12, 9, 74, 15]:
+    if smallest is None or itervar < smallest:
+        smallest = itervar
+        break  # here is the error
+    print("Loop:", itervar, smallest)
+print("Smallest:", smallest)
+
+# Counting in a loop
+zork = 0
+print("Before", zork)
+for thing in [0, 9, 41, 12, 3, 74, 15]:
+    zork = zork + 1
+    print(zork, thing)
+print("After", zork)
+
+# "To add up a value we encounter in a loop, we introduce a sum varibale that
+# start at 0 and we add the value to the sum each time through the loop"
+
+# Finding the average in a loop
+count = 0
+sum = 0
+print("before", count, sum)
+for value in [9, 41, 12, 3, 74, 15]:
+    count = count + 1
+    sum = sum + value
+    print(count, sum, value)
+print("After", count, sum, sum / count)
+
+# Filterin in a loop
+print("Before")
+for value in [9, 41, 12, 3, 74, 15]:
+    if value > 20:
+        print("Large number", value)
+print("After")
+
+# We use an if statement in the loop to catch / filter the values we are looking for
+
+# Seartch using a boolena variable
+
+found = False
+print("Before", found)
+for value in [9, 41, 12, 3, 74, 15]:
+    if value == 3:
+        found = True
+    print(found, value)
+print("After", found)
+
+# "if we just want to search and know if a value was found , we use a variable"
+# "that starts at False and is set to True as soon as we find what we are looking for"
