@@ -75,3 +75,5 @@ print("Done!")
 # "The iteration variable 'Iterates' through the sequence(ordered set)"
 # "The block (body) of code is executed once for each value in the sequence"
 # "the iteration variable moves through all of the values in the sequence"
+
+# Making smart loops
